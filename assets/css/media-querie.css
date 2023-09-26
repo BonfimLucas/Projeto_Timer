@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 332px) and (max-width: 764px){
+
+    .container{
+        width: 300px;
+    }
+
+    h1{
+        font-size: 1.2em;
+    }
+
+    .tempo{
+        margin-top: 20px;
+        font-size: 4em;
+    }
+
+    .btn{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 10px 10px 10px;
+    grid-column-gap: 80px;
+    justify-content: center;
+    position: relative;
+    margin-left: -55px;
+    margin-top: 30px;
+    }
+
+    #btn-style{
+        background-color: #592b02fe;
+        box-shadow: none;
+        color: wheat;
+        border: none;
+        padding: 1px;
+        border-radius: 6px;
+        width: 70px;
+        cursor: pointer;
+    }
+}
